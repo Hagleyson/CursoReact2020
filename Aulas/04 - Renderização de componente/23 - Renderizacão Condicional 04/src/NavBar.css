@@ -1,0 +1,21 @@
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: greenyellow;
+}
+ul {
+  float: right;
+  padding: 20px;
+}
+li {
+  float: left;
+  margin-right: 30px;
+  list-style-type: none;
+  color: rebeccapurple;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+li:hover {
+  border-bottom: 1px solid white;
+}

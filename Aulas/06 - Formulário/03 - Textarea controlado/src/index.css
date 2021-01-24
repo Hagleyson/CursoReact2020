@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 2%;
+}
+textarea {
+  resize: none;
+  width: 500px;
+  height: 200px;
+  padding-left: 10px;
+  line-height: 30px;
+}
+textarea:focus {
+  outline: 0;
+}
